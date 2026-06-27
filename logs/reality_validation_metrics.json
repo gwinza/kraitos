@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-06-12T12:25:49.839715+00:00",
+  "data_source": "synthetic",
+  "overall": {
+    "label": "overall",
+    "symbol": "",
+    "year": "",
+    "trades": 4298,
+    "win_rate": 0.819683573755235,
+    "profit_factor": 8.531824518780013,
+    "max_drawdown_pct": 2.8656678552217802,
+    "average_r": 0.8985328946281629,
+    "avg_rr": 2.132712144474923,
+    "tp1_hit_rate": 0.675990675990676,
+    "runner_rate": 0.0028,
+    "max_exposure": 0,
+    "trades_per_day": 858.0,
+    "data_source": "synthetic"
+  },
+  "ideal": {
+    "win_rate": 0.819683573755235,
+    "profit_factor": 8.531824518780013,
+    "average_r": 0.8985328946281629,
+    "max_drawdown_pct": 2.8656678552217802,
+    "total_trades": 4298
+  },
+  "realistic": {
+    "win_rate": 0.789683573755235,
+    "profit_factor": 6.9960961053996105,
+    "average_r": 0.7637529604339385,
+    "max_drawdown_pct": 3.295518033505047,
+    "total_trades": 4298
+  },
+  "thesis": {
+    "built": 0,
+    "tradeable": 0,
+    "rejected": 0,
+    "unclear_story_blocks": 0,
+    "invalidation_blocks": 0,
+    "target_liquidity_blocks": 0,
+    "geometry_blocks": 0,
+    "spread_rr_blocks": 0,
+    "avg_reward_risk": 0.0,
+    "avg_invalidation_pips": 0.0,
+    "tp1_hit_rate": 0.676,
+    "runner_continuation_rate": 0.0028,
+    "positions_opened": 4290,
+    "runner_closes": 8,
+    "runner_wins": 8,
+    "runner_losses": 0,
+    "be_stopouts": 1,
+    "runner_pnl_total": 329.18,
+    "runner_avg_r": 1.9387,
+    "top_rejection_reasons": []
+  }
+}

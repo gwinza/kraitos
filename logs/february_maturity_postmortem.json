@@ -1,0 +1,45 @@
+{
+  "month": "2025-02",
+  "total_trades": 976,
+  "wins": 402,
+  "losses": 574,
+  "win_rate": 41.2,
+  "net_pnl": -547.33,
+  "categories": [
+    {
+      "category": "stop_loss",
+      "count": 574,
+      "total_loss": -2076.52,
+      "avg_r": -1.061,
+      "pct_of_losses": 100.0,
+      "lesson": "Hard stop \u2014 location or timing was wrong at entry"
+    }
+  ],
+  "symbol_breakdown": {
+    "USDJPY": {
+      "count": 574,
+      "total_loss": -2076.52,
+      "avg_r": -1.061132404181185
+    }
+  },
+  "mode_breakdown": {
+    "scalp": {
+      "count": 574,
+      "total_loss": -2076.52,
+      "avg_r": -1.061132404181185
+    }
+  },
+  "regimes_failed": [
+    "USDJPY February chop"
+  ],
+  "summary": "February lost $2,076.52 across 574 losses (0 classified as immature/early/acceptance failures). Win rate collapsed to 41% \u2014 entries were ahead of market acceptance.",
+  "recommendations": [
+    "Require maturity_stage >= developing before any probe; ready for normal size",
+    "February losses dominated by thesis invalidation on immature liquidity-sweep probes",
+    "GBPJPY: enforce higher maturity floor (72 ready / 58 probe) \u2014 respect not disable",
+    "Scalps: scratch at -0.25R if no acceptance within first hour",
+    "Harvest: hold through minor invalidation if HTF structure remains valid",
+    "Do not add filters \u2014 wait for reaction/reclaim before entry commitment"
+  ],
+  "source_journal": "broker_partial_realistic_journal.csv"
+}

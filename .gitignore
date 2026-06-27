@@ -1,0 +1,42 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs & runtime
+logs/*.log
+logs/**/*.log
+logs/*.csv
+logs/csv/
+logs/json/
+logs/pair_specialisation.json
+logs/dashboard_state.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local tooling & dependencies
+.tools/
+node_modules/

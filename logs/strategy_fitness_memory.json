@@ -1,0 +1,745 @@
+{
+  "generated_at": "2026-06-12T20:42:23.877785+00:00",
+  "symbols": {
+    "AUDUSD": {
+      "symbol": "AUDUSD",
+      "best_strategy_overall": "micro_scalp",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": true,
+      "recommended_action": "CONDITIONAL",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "AUDUSD",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.16,
+              "profit_factor": 0.0584,
+              "average_r": -0.6948,
+              "max_drawdown_pct": 14.1275,
+              "expectancy": -3.3776,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.08,
+              "profit_factor": 0.0242,
+              "average_r": -0.8524,
+              "max_drawdown_pct": 17.7849,
+              "expectancy": -4.2255,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.224,
+              "profit_factor": 0.3062,
+              "average_r": -0.5246,
+              "max_drawdown_pct": 27.4269,
+              "expectancy": -2.4504,
+              "fitness_score": 0.0
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.0
+        },
+        "micro_scalp": {
+          "symbol": "AUDUSD",
+          "strategy": "micro_scalp",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.62,
+              "profit_factor": 1.4572,
+              "average_r": 0.375,
+              "max_drawdown_pct": 40.4817,
+              "expectancy": 0.8484,
+              "fitness_score": 0.3764
+            },
+            "100": {
+              "trades": 72,
+              "win_rate": 0.6667,
+              "profit_factor": 1.9808,
+              "average_r": 0.4776,
+              "max_drawdown_pct": 40.4817,
+              "expectancy": 1.4219,
+              "fitness_score": 0.4847
+            },
+            "250": {
+              "trades": 72,
+              "win_rate": 0.6667,
+              "profit_factor": 1.9808,
+              "average_r": 0.4776,
+              "max_drawdown_pct": 40.4817,
+              "expectancy": 1.4219,
+              "fitness_score": 0.4847
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.4306
+        }
+      }
+    },
+    "EURGBP": {
+      "symbol": "EURGBP",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": false,
+      "recommended_action": "APPROVED",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "EURGBP",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.94,
+              "profit_factor": 22.2994,
+              "average_r": 0.8038,
+              "max_drawdown_pct": 6.9723,
+              "expectancy": 3.8552,
+              "fitness_score": 0.6676
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.85,
+              "profit_factor": 6.9336,
+              "average_r": 0.7913,
+              "max_drawdown_pct": 14.0893,
+              "expectancy": 3.804,
+              "fitness_score": 0.5
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.828,
+              "profit_factor": 6.2835,
+              "average_r": 0.8661,
+              "max_drawdown_pct": 32.196,
+              "expectancy": 4.1245,
+              "fitness_score": 0.5
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.5838
+        }
+      }
+    },
+    "EURJPY": {
+      "symbol": "EURJPY",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": true,
+      "recommended_action": "REDUCED_RISK",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "EURJPY",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.0,
+              "profit_factor": 0.0,
+              "average_r": -0.1566,
+              "max_drawdown_pct": 0.1237,
+              "expectancy": -0.5044,
+              "fitness_score": 0.0219
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.0,
+              "profit_factor": 0.0,
+              "average_r": -0.114,
+              "max_drawdown_pct": 0.1888,
+              "expectancy": -0.3454,
+              "fitness_score": 0.0453
+            },
+            "250": {
+              "trades": 151,
+              "win_rate": 0.2781,
+              "profit_factor": 0.1982,
+              "average_r": -0.0456,
+              "max_drawdown_pct": 0.2013,
+              "expectancy": -0.1854,
+              "fitness_score": 0.22
+            }
+          },
+          "deterioration": true,
+          "fitness_score": 0.048
+        }
+      }
+    },
+    "EURUSD": {
+      "symbol": "EURUSD",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": false,
+      "recommended_action": "QUARANTINED",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "EURUSD",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.26,
+              "profit_factor": 0.4266,
+              "average_r": -0.4268,
+              "max_drawdown_pct": 25.0322,
+              "expectancy": -2.1604,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.13,
+              "profit_factor": 0.1819,
+              "average_r": -0.7184,
+              "max_drawdown_pct": 31.5786,
+              "expectancy": -3.614,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.208,
+              "profit_factor": 0.3198,
+              "average_r": -0.5438,
+              "max_drawdown_pct": 32.3914,
+              "expectancy": -2.7334,
+              "fitness_score": 0.0
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.0
+        },
+        "micro_scalp": {
+          "symbol": "EURUSD",
+          "strategy": "micro_scalp",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 46,
+              "win_rate": 0.413,
+              "profit_factor": 0.8557,
+              "average_r": -0.085,
+              "max_drawdown_pct": 37.4539,
+              "expectancy": -0.4224,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 46,
+              "win_rate": 0.413,
+              "profit_factor": 0.8557,
+              "average_r": -0.085,
+              "max_drawdown_pct": 37.4539,
+              "expectancy": -0.4224,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 46,
+              "win_rate": 0.413,
+              "profit_factor": 0.8557,
+              "average_r": -0.085,
+              "max_drawdown_pct": 37.4539,
+              "expectancy": -0.4224,
+              "fitness_score": 0.0
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.0
+        }
+      }
+    },
+    "GBPJPY": {
+      "symbol": "GBPJPY",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "micro_scalp",
+      "deterioration_warning": true,
+      "recommended_action": "DISABLED",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "GBPJPY",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.2,
+              "profit_factor": 0.3032,
+              "average_r": -0.5598,
+              "max_drawdown_pct": 20.9032,
+              "expectancy": -1.4588,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.2,
+              "profit_factor": 0.3043,
+              "average_r": -0.5606,
+              "max_drawdown_pct": 26.249,
+              "expectancy": -1.4549,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.452,
+              "profit_factor": 0.8877,
+              "average_r": 0.0028,
+              "max_drawdown_pct": 27.6662,
+              "expectancy": -0.1564,
+              "fitness_score": 0.0384
+            }
+          },
+          "deterioration": true,
+          "fitness_score": 0.0054
+        },
+        "micro_scalp": {
+          "symbol": "GBPJPY",
+          "strategy": "micro_scalp",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 29,
+              "win_rate": 0.4138,
+              "profit_factor": 0.92,
+              "average_r": -0.0807,
+              "max_drawdown_pct": 31.9611,
+              "expectancy": -0.1172,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 29,
+              "win_rate": 0.4138,
+              "profit_factor": 0.92,
+              "average_r": -0.0807,
+              "max_drawdown_pct": 31.9611,
+              "expectancy": -0.1172,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 29,
+              "win_rate": 0.4138,
+              "profit_factor": 0.92,
+              "average_r": -0.0807,
+              "max_drawdown_pct": 31.9611,
+              "expectancy": -0.1172,
+              "fitness_score": 0.0
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.0
+        }
+      }
+    },
+    "GBPUSD": {
+      "symbol": "GBPUSD",
+      "best_strategy_overall": "micro_scalp",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": true,
+      "recommended_action": "CONDITIONAL",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "GBPUSD",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.0,
+              "profit_factor": 0.0,
+              "average_r": -1.01,
+              "max_drawdown_pct": 4.4975,
+              "expectancy": -5.0712,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.0,
+              "profit_factor": 0.0,
+              "average_r": -1.01,
+              "max_drawdown_pct": 11.4548,
+              "expectancy": -5.0692,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.252,
+              "profit_factor": 0.4111,
+              "average_r": -0.4444,
+              "max_drawdown_pct": 32.5128,
+              "expectancy": -2.2326,
+              "fitness_score": 0.0
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.0
+        },
+        "micro_scalp": {
+          "symbol": "GBPUSD",
+          "strategy": "micro_scalp",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 40,
+              "win_rate": 0.55,
+              "profit_factor": 1.5415,
+              "average_r": 0.2237,
+              "max_drawdown_pct": 47.8923,
+              "expectancy": 1.1467,
+              "fitness_score": 0.3204
+            },
+            "100": {
+              "trades": 40,
+              "win_rate": 0.55,
+              "profit_factor": 1.5415,
+              "average_r": 0.2237,
+              "max_drawdown_pct": 47.8923,
+              "expectancy": 1.1467,
+              "fitness_score": 0.3204
+            },
+            "250": {
+              "trades": 40,
+              "win_rate": 0.55,
+              "profit_factor": 1.5415,
+              "average_r": 0.2237,
+              "max_drawdown_pct": 47.8923,
+              "expectancy": 1.1467,
+              "fitness_score": 0.3204
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.3204
+        }
+      }
+    },
+    "NZDUSD": {
+      "symbol": "NZDUSD",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": false,
+      "recommended_action": "APPROVED",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "NZDUSD",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.96,
+              "profit_factor": 200.6825,
+              "average_r": 0.5342,
+              "max_drawdown_pct": 0.4262,
+              "expectancy": 2.516,
+              "fitness_score": 0.8858
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.97,
+              "profit_factor": 91.2446,
+              "average_r": 0.8849,
+              "max_drawdown_pct": 9.3246,
+              "expectancy": 4.2054,
+              "fitness_score": 0.5892
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.94,
+              "profit_factor": 21.3457,
+              "average_r": 1.0572,
+              "max_drawdown_pct": 29.0313,
+              "expectancy": 4.9985,
+              "fitness_score": 0.5
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.7197
+        }
+      }
+    },
+    "USDCAD": {
+      "symbol": "USDCAD",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": false,
+      "recommended_action": "APPROVED",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "USDCAD",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.94,
+              "profit_factor": 16.6911,
+              "average_r": 0.604,
+              "max_drawdown_pct": 4.3598,
+              "expectancy": 2.8652,
+              "fitness_score": 0.7547
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.91,
+              "profit_factor": 11.7221,
+              "average_r": 0.8309,
+              "max_drawdown_pct": 10.5073,
+              "expectancy": 3.9618,
+              "fitness_score": 0.5498
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.896,
+              "profit_factor": 10.9376,
+              "average_r": 0.9861,
+              "max_drawdown_pct": 30.361,
+              "expectancy": 4.6727,
+              "fitness_score": 0.5
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.6423
+        }
+      }
+    },
+    "USDCHF": {
+      "symbol": "USDCHF",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": false,
+      "recommended_action": "APPROVED",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "USDCHF",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.94,
+              "profit_factor": 20.7742,
+              "average_r": 0.7444,
+              "max_drawdown_pct": 6.9089,
+              "expectancy": 3.591,
+              "fitness_score": 0.6697
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.88,
+              "profit_factor": 9.0828,
+              "average_r": 0.8336,
+              "max_drawdown_pct": 13.0289,
+              "expectancy": 4.0115,
+              "fitness_score": 0.5
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.84,
+              "profit_factor": 6.7974,
+              "average_r": 0.8806,
+              "max_drawdown_pct": 32.3252,
+              "expectancy": 4.2022,
+              "fitness_score": 0.5
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.5849
+        }
+      }
+    },
+    "USDJPY": {
+      "symbol": "USDJPY",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "micro_scalp",
+      "deterioration_warning": true,
+      "recommended_action": "DISABLED",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "USDJPY",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.0,
+              "profit_factor": 0.0,
+              "average_r": -1.0104,
+              "max_drawdown_pct": 18.1206,
+              "expectancy": -3.3622,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.27,
+              "profit_factor": 0.2876,
+              "average_r": -0.4104,
+              "max_drawdown_pct": 26.9971,
+              "expectancy": -1.6661,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 250,
+              "win_rate": 0.484,
+              "profit_factor": 1.0256,
+              "average_r": 0.0753,
+              "max_drawdown_pct": 27.6263,
+              "expectancy": 0.0419,
+              "fitness_score": 0.1175
+            }
+          },
+          "deterioration": true,
+          "fitness_score": 0.0165
+        },
+        "micro_scalp": {
+          "symbol": "USDJPY",
+          "strategy": "micro_scalp",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 21,
+              "win_rate": 0.381,
+              "profit_factor": 0.7447,
+              "average_r": -0.1548,
+              "max_drawdown_pct": 40.1749,
+              "expectancy": -0.5262,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 21,
+              "win_rate": 0.381,
+              "profit_factor": 0.7447,
+              "average_r": -0.1548,
+              "max_drawdown_pct": 40.1749,
+              "expectancy": -0.5262,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 21,
+              "win_rate": 0.381,
+              "profit_factor": 0.7447,
+              "average_r": -0.1548,
+              "max_drawdown_pct": 40.1749,
+              "expectancy": -0.5262,
+              "fitness_score": 0.0
+            }
+          },
+          "deterioration": false,
+          "fitness_score": 0.0
+        }
+      }
+    },
+    "XAUUSD": {
+      "symbol": "XAUUSD",
+      "best_strategy_overall": "harvest",
+      "best_by_trend_state": {},
+      "best_by_regime": {},
+      "best_session": "any",
+      "worst_strategy": "harvest",
+      "deterioration_warning": true,
+      "recommended_action": "REDUCED_RISK",
+      "strategy_records": {
+        "harvest": {
+          "symbol": "XAUUSD",
+          "strategy": "harvest",
+          "trend_state": "any",
+          "regime": "any",
+          "session": "any",
+          "windows": {
+            "50": {
+              "trades": 50,
+              "win_rate": 0.0,
+              "profit_factor": 0.0,
+              "average_r": -0.138,
+              "max_drawdown_pct": 2.1844,
+              "expectancy": -12.6406,
+              "fitness_score": 0.0
+            },
+            "100": {
+              "trades": 100,
+              "win_rate": 0.03,
+              "profit_factor": 0.002,
+              "average_r": -0.0914,
+              "max_drawdown_pct": 2.8635,
+              "expectancy": -8.2277,
+              "fitness_score": 0.0
+            },
+            "250": {
+              "trades": 150,
+              "win_rate": 0.3467,
+              "profit_factor": 0.5469,
+              "average_r": -0.0171,
+              "max_drawdown_pct": 2.8657,
+              "expectancy": -2.4933,
+              "fitness_score": 0.2338
+            }
+          },
+          "deterioration": true,
+          "fitness_score": 0.0327
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "emergency_stop": {
+    "active": false,
+    "reason": "",
+    "activated_at": null
+  },
+  "manual_override": {
+    "paused": false,
+    "reason": "",
+    "paused_at": null
+  }
+}

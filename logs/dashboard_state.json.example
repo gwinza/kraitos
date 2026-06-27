@@ -1,0 +1,7 @@
+{
+  "regime": "trending",
+  "regime_confidence": 0.78,
+  "regime_reason": "Moving average slope is up with stable volatility (ATR ratio 1.12)",
+  "symbol": "EURUSD",
+  "updated_at": "2025-06-06T10:00:00+00:00"
+}

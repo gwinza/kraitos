@@ -1,0 +1,101 @@
+# Kraitos application configuration
+
+app:
+  name: Kraitos
+  version: "0.1.0"
+  environment: development
+
+logging:
+  level: INFO
+  console: true
+  file: true
+  directory: logs
+
+# Account settings
+account:
+  balance: 10000.0
+
+# Risk management
+risk:
+  per_trade_pct: 1.0
+  max_daily_drawdown_pct: 3.0
+  max_open_trades: 5
+  max_risk_per_symbol_pct: 2.0
+  max_correlated_exposure_pct: 3.0
+
+# Trading environment
+trading:
+  symbols:
+    - EURUSD
+    - GBPUSD
+    - USDJPY
+  timeframes:
+    - M5
+    - H1
+    - D1
+  spread_limits:
+    default: 2.0
+    EURUSD: 1.5
+    GBPUSD: 2.0
+    USDJPY: 2.5
+  sessions:
+    - name: london
+      start: "08:00"
+      end: "17:00"
+      timezone: Europe/London
+      days: [mon, tue, wed, thu, fri]
+    - name: new_york
+      start: "13:00"
+      end: "22:00"
+      timezone: America/New_York
+      days: [mon, tue, wed, thu, fri]
+  live_enabled: false
+  paper_enabled: true
+  news_filter_enabled: true
+
+broker:
+  provider: mt5
+  account_id: null
+  sandbox: true
+  max_risk_per_trade_pct: 1.0
+  daily_drawdown_limit_pct: 5.0
+  reconnect_attempts: 3
+  reconnect_delay_seconds: 5
+
+data:
+  history_bars: 1000
+
+strategies:
+  enabled: []
+
+execution:
+  order_type: market
+  slippage_pips: 1.0
+  retry_attempts: 2
+
+backtesting:
+  initial_balance: 10000
+  commission_per_lot: 7.0
+  spread_pips: 1.5
+
+analytics:
+  report_directory: analytics/reports
+  metrics:
+    - sharpe_ratio
+    - max_drawdown
+    - win_rate
+
+dashboard:
+  enabled: true
+  host: 127.0.0.1
+  port: 8080
+  refresh_interval_seconds: 5
+
+pipeline:
+  execution_mode: simulation
+  execute_trades: false
+  structure_timeframe: H1
+  precision_timeframes:
+    - M1
+    - M5
+  output_json: false

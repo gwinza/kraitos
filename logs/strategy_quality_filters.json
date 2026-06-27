@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-06-12T11:41:25.997651+00:00",
+  "journal_path": "C:\\Users\\Asus\\kraitos\\logs\\conservative_trade_journal.csv",
+  "disabled_symbols": [
+    "EURJPY",
+    "GBPJPY",
+    "USDJPY",
+    "XAUUSD"
+  ],
+  "quarantined_symbol_modes": [
+    "EURJPY:harvest",
+    "GBPJPY:harvest",
+    "USDJPY:harvest",
+    "XAUUSD:harvest"
+  ],
+  "disabled_regimes": [],
+  "symbol_risk_multipliers": {
+    "AUDUSD": 1.0,
+    "EURGBP": 1.0,
+    "EURJPY": 0.0,
+    "EURUSD": 1.0,
+    "GBPJPY": 0.0,
+    "GBPUSD": 1.0,
+    "NZDUSD": 1.0,
+    "USDCAD": 1.0,
+    "USDCHF": 1.0,
+    "USDJPY": 0.0,
+    "XAUUSD": 0.0
+  },
+  "thresholds": {
+    "pf_quarantine": 1.1,
+    "pf_full_risk": 1.3,
+    "dd_full_risk_pct": 10.0,
+    "drawdown_strict_pct": 10.0,
+    "min_bucket_trades": 8
+  },
+  "by_symbol": {
+    "AUDUSD": {
+      "label": "AUDUSD",
+      "total_trades": 529,
+      "win_rate": 0.9773,
+      "profit_factor": 67.909,
+      "average_r": 1.2042,
+      "max_drawdown_pct": 0.6039,
+      "net_profit": 3087.85,
+      "expectancy": 5.8371
+    },
+    "EURGBP": {
+      "label": "EURGBP",
+      "total_trades": 530,
+      "win_rate": 0.7887,
+      "profit_factor": 5.1019,
+      "average_r": 0.8202,
+      "max_drawdown_pct": 0.8625,
+      "net_profit": 2151.47,
+      "expectancy": 4.0594
+    },
+    "EURJPY": {
+      "label": "EURJPY",
+      "total_trades": 151,
+      "win_rate": 0.2781,
+      "profit_factor": 0.1982,
+      "average_r": -0.0456,
+      "max_drawdown_pct": 0.2013,
+      "net_profit": -28.0,
+      "expectancy": -0.1854
+    },
+    "EURUSD": {
+      "label": "EURUSD",
+      "total_trades": 529,
+      "win_rate": 0.9943,
+      "profit_factor": 3733.2875,
+      "average_r": 1.1596,
+      "max_drawdown_pct": 0.0386,
+      "net_profit": 2985.83,
+      "expectancy": 5.6443
+    },
+    "GBPJPY": {
+      "label": "GBPJPY",
+      "total_trades": 150,
+      "win_rate": 0.3067,
+      "profit_factor": 0.2783,
+      "average_r": -0.0307,
+      "max_drawdown_pct": 0.1991,
+      "net_profit": -22.82,
+      "expectancy": -0.1521
+    },
+    "GBPUSD": {
+      "label": "GBPUSD",
+      "total_trades": 529,
+      "win_rate": 0.9924,
+      "profit_factor": 591.646,
+      "average_r": 1.1905,
+      "max_drawdown_pct": 0.0029,
+      "net_profit": 3053.64,
+      "expectancy": 5.7725
+    },
+    "NZDUSD": {
+      "label": "NZDUSD",
+      "total_trades": 529,
+      "win_rate": 0.9263,
+      "profit_factor": 17.349,
+      "average_r": 1.1064,
+      "max_drawdown_pct": 0.4148,
+      "net_profit": 2846.19,
+      "expectancy": 5.3803
+    },
+    "USDCAD": {
+      "label": "USDCAD",
+      "total_trades": 529,
+      "win_rate": 0.8696,
+      "profit_factor": 8.7862,
+      "average_r": 0.9853,
+      "max_drawdown_pct": 0.4229,
+      "net_profit": 2501.87,
+      "expectancy": 4.7294
+    },
+    "USDCHF": {
+      "label": "USDCHF",
+      "total_trades": 529,
+      "win_rate": 0.8261,
+      "profit_factor": 6.4554,
+      "average_r": 0.8997,
+      "max_drawdown_pct": 0.4718,
+      "net_profit": 2335.18,
+      "expectancy": 4.4143
+    },
+    "USDJPY": {
+      "label": "USDJPY",
+      "total_trades": 143,
+      "win_rate": 0.0699,
+      "profit_factor": 0.0085,
+      "average_r": -0.1499,
+      "max_drawdown_pct": 0.327,
+      "net_profit": -60.59,
+      "expectancy": -0.4237
+    },
+    "XAUUSD": {
+      "label": "XAUUSD",
+      "total_trades": 150,
+      "win_rate": 0.3467,
+      "profit_factor": 0.5469,
+      "average_r": -0.0171,
+      "max_drawdown_pct": 2.8657,
+      "net_profit": -374.0,
+      "expectancy": -2.4933
+    }
+  },
+  "by_regime": {
+    "trending": {
+      "label": "trending",
+      "total_trades": 4298,
+      "win_rate": 0.8197,
+      "profit_factor": 8.5318,
+      "average_r": 0.8985,
+      "max_drawdown_pct": 2.8657,
+      "net_profit": 18476.62,
+      "expectancy": 4.2989
+    }
+  }
+}

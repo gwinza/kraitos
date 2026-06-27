@@ -1,0 +1,23 @@
+# Core
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Data & numerics
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Logging & CLI
+loguru>=0.7.2
+click>=8.1.7
+
+# Broker
+MetaTrader5>=5.0.45
+
+# Dashboard
+streamlit>=1.32.0
+
+# Development
+pytest>=8.0.0
+pytest-cov>=4.1.0
+black>=24.0.0
+ruff>=0.3.0

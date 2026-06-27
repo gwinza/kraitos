@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Kraitos Sports",
+    "slug": "kraitos-sports",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0e17"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kraitos.sports"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0e17"
+      },
+      "package": "com.kraitos.sports",
+      "versionCode": 2,
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#00d4aa"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "kraitos-sports-local"
+      }
+    }
+  }
+}

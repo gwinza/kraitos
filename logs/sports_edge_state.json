@@ -1,0 +1,89 @@
+{
+  "updated": "2026-06-27T09:14:06.648461+00:00",
+  "edges": {
+    "eng-nl-001": {
+      "decision": "Value Bet",
+      "grade": "A+",
+      "edge_score": 100.0,
+      "ev_pct": 30.941000000000017
+    },
+    "eng-l2-001": {
+      "decision": "Value Bet",
+      "grade": "A+",
+      "edge_score": 100.0,
+      "ev_pct": 26.225640000000006
+    },
+    "ger-reg-001": {
+      "decision": "Value Bet",
+      "grade": "A+",
+      "edge_score": 100.0,
+      "ev_pct": 24.864199999999983
+    },
+    "efl-001": {
+      "decision": "Value Bet",
+      "grade": "A+",
+      "edge_score": 98.5,
+      "ev_pct": 54.27720000000002
+    },
+    "ligue-001": {
+      "decision": "Value Bet",
+      "grade": "A+",
+      "edge_score": 97.5,
+      "ev_pct": 53.537600000000005
+    },
+    "nba-001": {
+      "decision": "Value Bet",
+      "grade": "A+",
+      "edge_score": 97.0,
+      "ev_pct": 24.485
+    },
+    "bund-001": {
+      "decision": "Arbitrage",
+      "grade": "A+",
+      "edge_score": 93.3,
+      "ev_pct": 24.28100000000002
+    },
+    "esp-sf-001": {
+      "decision": "Value Bet",
+      "grade": "A",
+      "edge_score": 87.3,
+      "ev_pct": 21.907999999999994
+    },
+    "fra-n2-001": {
+      "decision": "Value Bet",
+      "grade": "A",
+      "edge_score": 75.3,
+      "ev_pct": 19.520000000000003
+    },
+    "ned-td-001": {
+      "decision": "Value Bet",
+      "grade": "A",
+      "edge_score": 68.2,
+      "ev_pct": 17.312000000000015
+    },
+    "nhl-001": {
+      "decision": "Value Bet",
+      "grade": "B",
+      "edge_score": 60.9,
+      "ev_pct": 15.348108799999993
+    },
+    "nfl-001": {
+      "decision": "Value Bet",
+      "grade": "B",
+      "edge_score": 59.8,
+      "ev_pct": 15.055070000000015
+    },
+    "mlb-001": {
+      "decision": "Value Bet",
+      "grade": "B",
+      "edge_score": 59.1,
+      "ev_pct": 14.901169999999997
+    },
+    "serie-001": {
+      "decision": "Value Bet",
+      "grade": "B",
+      "edge_score": 56.6,
+      "ev_pct": 15.228600000000014
+    }
+  }
+}

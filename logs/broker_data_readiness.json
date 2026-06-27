@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-06-27T09:14:28.606722+00:00",
+  "all_ready": false,
+  "ready_count": 0,
+  "required_count": 6,
+  "symbols": {
+    "EURUSD": {
+      "status": "INCOMPLETE",
+      "file_path": "C:\\Users\\Asus\\kraitos\\data\\mt5_exports\\EURUSD_M1.csv",
+      "rows": 372084,
+      "years_present": {
+        "2025": 372084
+      },
+      "years_missing": [
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "issues": [
+        "Missing or thin year coverage: 2022, 2023, 2024, 2026"
+      ]
+    },
+    "GBPUSD": {
+      "status": "INCOMPLETE",
+      "file_path": "C:\\Users\\Asus\\kraitos\\data\\mt5_exports\\GBPUSD_M1.csv",
+      "rows": 371091,
+      "years_present": {
+        "2025": 371091
+      },
+      "years_missing": [
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "issues": [
+        "Missing or thin year coverage: 2022, 2023, 2024, 2026"
+      ]
+    },
+    "AUDUSD": {
+      "status": "INCOMPLETE",
+      "file_path": "C:\\Users\\Asus\\kraitos\\data\\mt5_exports\\AUDUSD_M1.csv",
+      "rows": 371221,
+      "years_present": {
+        "2025": 371221
+      },
+      "years_missing": [
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "issues": [
+        "Missing or thin year coverage: 2022, 2023, 2024, 2026"
+      ]
+    },
+    "USDJPY": {
+      "status": "INCOMPLETE",
+      "file_path": "C:\\Users\\Asus\\kraitos\\data\\mt5_exports\\USDJPY_M1.csv",
+      "rows": 371703,
+      "years_present": {
+        "2025": 371703
+      },
+      "years_missing": [
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "issues": [
+        "Missing or thin year coverage: 2022, 2023, 2024, 2026"
+      ]
+    },
+    "GBPJPY": {
+      "status": "INCOMPLETE",
+      "file_path": "C:\\Users\\Asus\\kraitos\\data\\mt5_exports\\GBPJPY_M1.csv",
+      "rows": 371076,
+      "years_present": {
+        "2025": 371076
+      },
+      "years_missing": [
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "issues": [
+        "Missing or thin year coverage: 2022, 2023, 2024, 2026"
+      ]
+    },
+    "XAUUSD": {
+      "status": "MISSING",
+      "file_path": null,
+      "rows": 0,
+      "years_present": {},
+      "years_missing": [],
+      "issues": [
+        "No CSV found for XAUUSD in data/*_exports/"
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-06-12T11:41:26.135731+00:00",
+  "symbols": {
+    "AUDUSD": {
+      "symbol": "AUDUSD",
+      "status": "APPROVED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [],
+      "fit_scores": {
+        "harvest": 5.8371
+      },
+      "notes": "Asset approved with positive historical strategy fit",
+      "last_researched_at": "2026-06-12T11:41:26.078221+00:00"
+    },
+    "EURGBP": {
+      "symbol": "EURGBP",
+      "status": "APPROVED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [],
+      "fit_scores": {
+        "harvest": 4.0594
+      },
+      "notes": "Asset approved with positive historical strategy fit",
+      "last_researched_at": "2026-06-12T11:41:26.083213+00:00"
+    },
+    "EURJPY": {
+      "symbol": "EURJPY",
+      "status": "QUARANTINED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [
+        "harvest"
+      ],
+      "fit_scores": {
+        "harvest": -0.1854
+      },
+      "notes": "All qualified strategy modes show negative expectancy",
+      "last_researched_at": "2026-06-12T11:41:26.089399+00:00"
+    },
+    "EURUSD": {
+      "symbol": "EURUSD",
+      "status": "APPROVED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [],
+      "fit_scores": {
+        "harvest": 5.6443
+      },
+      "notes": "Asset approved with positive historical strategy fit",
+      "last_researched_at": "2026-06-12T11:41:26.094403+00:00"
+    },
+    "GBPJPY": {
+      "symbol": "GBPJPY",
+      "status": "QUARANTINED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [
+        "harvest"
+      ],
+      "fit_scores": {
+        "harvest": -0.1521
+      },
+      "notes": "All qualified strategy modes show negative expectancy",
+      "last_researched_at": "2026-06-12T11:41:26.100472+00:00"
+    },
+    "GBPUSD": {
+      "symbol": "GBPUSD",
+      "status": "APPROVED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [],
+      "fit_scores": {
+        "harvest": 5.7725
+      },
+      "notes": "Asset approved with positive historical strategy fit",
+      "last_researched_at": "2026-06-12T11:41:26.105468+00:00"
+    },
+    "NZDUSD": {
+      "symbol": "NZDUSD",
+      "status": "APPROVED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [],
+      "fit_scores": {
+        "harvest": 5.3803
+      },
+      "notes": "Asset approved with positive historical strategy fit",
+      "last_researched_at": "2026-06-12T11:41:26.110524+00:00"
+    },
+    "USDCAD": {
+      "symbol": "USDCAD",
+      "status": "APPROVED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [],
+      "fit_scores": {
+        "harvest": 4.7294
+      },
+      "notes": "Asset approved with positive historical strategy fit",
+      "last_researched_at": "2026-06-12T11:41:26.115565+00:00"
+    },
+    "USDCHF": {
+      "symbol": "USDCHF",
+      "status": "APPROVED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [],
+      "fit_scores": {
+        "harvest": 4.4143
+      },
+      "notes": "Asset approved with positive historical strategy fit",
+      "last_researched_at": "2026-06-12T11:41:26.122574+00:00"
+    },
+    "USDJPY": {
+      "symbol": "USDJPY",
+      "status": "QUARANTINED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [
+        "harvest"
+      ],
+      "fit_scores": {
+        "harvest": -0.4237
+      },
+      "notes": "All qualified strategy modes show negative expectancy",
+      "last_researched_at": "2026-06-12T11:41:26.128567+00:00"
+    },
+    "XAUUSD": {
+      "symbol": "XAUUSD",
+      "status": "QUARANTINED",
+      "best_strategy_overall": "harvest",
+      "best_state": "strong_uptrend",
+      "best_strategies_by_state": {
+        "strong_uptrend": "harvest"
+      },
+      "avoid_strategies": [
+        "harvest"
+      ],
+      "fit_scores": {
+        "harvest": -2.4933
+      },
+      "notes": "All qualified strategy modes show negative expectancy",
+      "last_researched_at": "2026-06-12T11:41:26.135731+00:00"
+    }
+  }
+}

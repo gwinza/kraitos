@@ -1,0 +1,167 @@
+{
+  "updated_at": "2026-06-12T20:42:24.835557+00:00",
+  "records": [
+    {
+      "member": "price_action",
+      "regime": "trending",
+      "trades": 820,
+      "wins": 723,
+      "win_rate": 0.8817,
+      "average_confidence": 88.92,
+      "calibration_score": 0.9925
+    },
+    {
+      "member": "volume",
+      "regime": "trending",
+      "trades": 820,
+      "wins": 723,
+      "win_rate": 0.8817,
+      "average_confidence": 88.92,
+      "calibration_score": 0.9925
+    },
+    {
+      "member": "market_structure",
+      "regime": "trending",
+      "trades": 820,
+      "wins": 723,
+      "win_rate": 0.8817,
+      "average_confidence": 88.92,
+      "calibration_score": 0.9925
+    },
+    {
+      "member": "session",
+      "regime": "trending",
+      "trades": 820,
+      "wins": 723,
+      "win_rate": 0.8817,
+      "average_confidence": 88.92,
+      "calibration_score": 0.9925
+    },
+    {
+      "member": "volatility",
+      "regime": "trending",
+      "trades": 820,
+      "wins": 723,
+      "win_rate": 0.8817,
+      "average_confidence": 88.92,
+      "calibration_score": 0.9925
+    },
+    {
+      "member": "opportunity",
+      "regime": "trending",
+      "trades": 820,
+      "wins": 723,
+      "win_rate": 0.8817,
+      "average_confidence": 88.92,
+      "calibration_score": 0.9925
+    },
+    {
+      "member": "price_action",
+      "regime": "volatile",
+      "trades": 14,
+      "wins": 4,
+      "win_rate": 0.2857,
+      "average_confidence": 91.5,
+      "calibration_score": 0.3707
+    },
+    {
+      "member": "volume",
+      "regime": "volatile",
+      "trades": 14,
+      "wins": 4,
+      "win_rate": 0.2857,
+      "average_confidence": 91.5,
+      "calibration_score": 0.3707
+    },
+    {
+      "member": "market_structure",
+      "regime": "volatile",
+      "trades": 14,
+      "wins": 4,
+      "win_rate": 0.2857,
+      "average_confidence": 91.5,
+      "calibration_score": 0.3707
+    },
+    {
+      "member": "session",
+      "regime": "volatile",
+      "trades": 14,
+      "wins": 4,
+      "win_rate": 0.2857,
+      "average_confidence": 91.5,
+      "calibration_score": 0.3707
+    },
+    {
+      "member": "volatility",
+      "regime": "volatile",
+      "trades": 14,
+      "wins": 4,
+      "win_rate": 0.2857,
+      "average_confidence": 91.5,
+      "calibration_score": 0.3707
+    },
+    {
+      "member": "opportunity",
+      "regime": "volatile",
+      "trades": 14,
+      "wins": 4,
+      "win_rate": 0.2857,
+      "average_confidence": 91.5,
+      "calibration_score": 0.3707
+    },
+    {
+      "member": "price_action",
+      "regime": "ranging",
+      "trades": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "average_confidence": 92.36,
+      "calibration_score": 0.0764
+    },
+    {
+      "member": "volume",
+      "regime": "ranging",
+      "trades": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "average_confidence": 92.36,
+      "calibration_score": 0.0764
+    },
+    {
+      "member": "market_structure",
+      "regime": "ranging",
+      "trades": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "average_confidence": 92.36,
+      "calibration_score": 0.0764
+    },
+    {
+      "member": "session",
+      "regime": "ranging",
+      "trades": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "average_confidence": 92.36,
+      "calibration_score": 0.0764
+    },
+    {
+      "member": "volatility",
+      "regime": "ranging",
+      "trades": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "average_confidence": 92.36,
+      "calibration_score": 0.0764
+    },
+    {
+      "member": "opportunity",
+      "regime": "ranging",
+      "trades": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "average_confidence": 92.36,
+      "calibration_score": 0.0764
+    }
+  ]
+}
